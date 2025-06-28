@@ -1,0 +1,68 @@
+1 --- ::1 -  POST /blog 400
+89.659 ms Mon, 23 Jun 2025 15:29:46 GMT every blog must have a unique title
+2 --- ::1 -  GET /blogs 304 39.964 ms Mon, 23 Jun 2025 15:29:57 GMT
+1 --- ::1 -  POST /blog 400
+75.832 ms Mon, 23 Jun 2025 17:15:18 GMT every blog must have a unique title
+2 --- ::ffff:127.0.0.1 -  POST /blog 400
+17.431 ms Mon, 23 Jun 2025 17:16:04 GMT every blog must have a unique title
+3 --- ::ffff:127.0.0.1 -  POST /blog 200 20.097 ms Mon, 23 Jun 2025 17:16:57 GMT
+1 --- ::ffff:127.0.0.1 -  POST /blog 400
+70.067 ms Mon, 23 Jun 2025 22:33:12 GMT every blog must have a unique title
+2 --- ::1 -  GET /blogs 200 33.976 ms Mon, 23 Jun 2025 22:33:16 GMT
+3 --- ::1 -  GET /blogs 304 11.498 ms Mon, 23 Jun 2025 22:35:22 GMT
+1 --- ::1 -  GET /blogs 304 37.274 ms Mon, 23 Jun 2025 22:41:59 GMT
+2 --- ::ffff:127.0.0.1 -  POST /blog 400
+26.947 ms Mon, 23 Jun 2025 22:42:18 GMT blog validation failed: description: every blog must have a dzscriprion, title: every blog must have a title
+3 --- ::ffff:127.0.0.1 -  POST /blog 400
+25.241 ms Mon, 23 Jun 2025 22:43:35 GMT blog validation failed: description: every blog must have a dzscriprion, title: every blog must have a title
+4 --- ::ffff:127.0.0.1 -  POST /blog 400
+5.812 ms Mon, 23 Jun 2025 22:44:04 GMT blog validation failed: description: every blog must have a dzscriprion, title: every blog must have a title
+1 --- ::ffff:127.0.0.1 -  POST /blog 400
+61.619 ms Mon, 23 Jun 2025 22:44:38 GMT blog validation failed: description: every blog must have a dzscriprion, title: every blog must have a title
+1 --- ::1 -  GET /blogs 304 72.779 ms Mon, 23 Jun 2025 22:45:35 GMT
+1 --- ::ffff:127.0.0.1 -  POST /blog 200 81.562 ms Mon, 23 Jun 2025 22:46:27 GMT
+2 --- ::ffff:127.0.0.1 -  POST /blog 400
+18.006 ms Mon, 23 Jun 2025 22:46:29 GMT every blog must have a unique title
+3 --- ::ffff:127.0.0.1 -  POST /blog 400
+13.671 ms Mon, 23 Jun 2025 22:46:31 GMT every blog must have a unique title
+1 --- ::1 -  GET /blo 500
+7.251 ms Tue, 24 Jun 2025 17:06:24 GMT httpStatus is not defined
+1 --- ::1 -  GET /blo 404
+5.378 ms Tue, 24 Jun 2025 17:08:01 GMT Not Found
+2 --- ::ffff:127.0.0.1 -  POST /blogs 404
+37.802 ms Tue, 24 Jun 2025 17:08:20 GMT Not Found
+1 --- ::1 -  GET /blo 404
+6.709 ms Tue, 24 Jun 2025 21:21:39 GMT Not Found
+2 --- ::1 -  GET /blog 404
+1.804 ms Tue, 24 Jun 2025 21:21:48 GMT Not Found
+3 --- ::1 -  GET /blogs 200 45.140 ms Tue, 24 Jun 2025 21:22:04 GMT
+4 --- ::ffff:127.0.0.1 -  POST /blogs 404
+33.913 ms Tue, 24 Jun 2025 21:22:10 GMT Not Found
+5 --- ::ffff:127.0.0.1 -  POST /blog 400
+47.929 ms Tue, 24 Jun 2025 21:22:14 GMT every blog must have a unique title
+6 --- ::ffff:127.0.0.1 -  POST /blog 200 10.115 ms Tue, 24 Jun 2025 21:22:59 GMT
+7 --- ::ffff:127.0.0.1 -  POST /blog 400
+10.626 ms Tue, 24 Jun 2025 21:23:01 GMT every blog must have a unique title
+8 --- ::1 -  GET /blogs 200 8.293 ms Tue, 24 Jun 2025 21:23:15 GMT
+1 --- ::1 -  GET /blogs 200 46.732 ms Thu, 26 Jun 2025 00:49:58 GMT
+1 --- ::1 -  GET /blogs 304 39.889 ms Thu, 26 Jun 2025 00:50:28 GMT
+2 --- ::1 -  GET /blogs 304 10.280 ms Thu, 26 Jun 2025 00:50:29 GMT
+1 --- ::1 -  GET /blog 404
+8.421 ms Thu, 26 Jun 2025 00:55:50 GMT  
+2 --- ::1 -  GET /blog 404
+2.339 ms Thu, 26 Jun 2025 00:55:54 GMT  
+3 --- ::1 -  GET /blog 404
+1.978 ms Thu, 26 Jun 2025 00:55:56 GMT  
+4 --- ::1 -  GET /blog 404
+1.654 ms Thu, 26 Jun 2025 00:55:57 GMT  
+5 --- ::1 -  GET /blog 404
+1.485 ms Thu, 26 Jun 2025 00:55:58 GMT  
+6 --- ::1 -  GET /blogs 304 71.526 ms Thu, 26 Jun 2025 00:56:06 GMT
+7 --- ::ffff:127.0.0.1 -  POST /blog 400
+103.642 ms Thu, 26 Jun 2025 00:56:11 GMT  
+8 --- ::ffff:127.0.0.1 -  POST /blog 200 9.253 ms Thu, 26 Jun 2025 00:56:22 GMT
+1 --- ::ffff:127.0.0.1 -  POST /blog 400
+129.075 ms Thu, 26 Jun 2025 18:11:46 GMT  
+2 --- ::1 -  GET /blog 404
+2.144 ms Thu, 26 Jun 2025 18:11:50 GMT  
+3 --- ::1 -  GET /blogs 200 42.141 ms Thu, 26 Jun 2025 18:11:56 GMT
