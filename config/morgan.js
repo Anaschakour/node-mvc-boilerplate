@@ -1,7 +1,7 @@
 const morgan = require("morgan");
 const fs = require("fs");
 const path = require("path");
-const config = require("./../config/config.js");
+const { config } = require("./../config");
 let counter = 0;
 morgan.token("log-number", function getId(req) {
     counter++;

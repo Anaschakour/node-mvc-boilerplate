@@ -2,12 +2,12 @@ const mongoose = require("mongoose");
 const httpStatus = require("http-status");
 const ErrorApi = require("./utils/errorApi.js");
 const http = require("http");
-const logger = require("./config/logger.js");
-const { uri } = require("./config/config.js");
+const { logger } = require("./config");
+const { config } = require("./config");
 const { app } = require("./server.js");
 const { port } = require("./config/config.js");
 mongoose
-    .connect(uri)
+    .connect(config.uri)
     .then(() => {
         logger.info("connected to database");
     })

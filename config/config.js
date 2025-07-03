@@ -2,7 +2,7 @@ const joi = require("joi");
 require("dotenv").config();
 const ErrorApi = require("./../utils/errorApi.js");
 const { enVarSchema } = require("./../validation/env.validate.js");
-const logger = require("./logger.js");
+const {logger} = require("./../config");
 
 const { error, value: enVars } = enVarSchema.validate(process.env);
 
